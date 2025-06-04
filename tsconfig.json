@@ -17,5 +17,6 @@
     }
   },
   "include": ["apps/**/*", "packages/**/*"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "references": [{ "path": "apps/backend/tsconfig.build.json" }]
 }

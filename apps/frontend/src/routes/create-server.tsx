@@ -1,6 +1,6 @@
 import type { SelectOption } from "@/components/ui/select-field";
 import { useAppForm } from "@/hooks/form";
-import { api } from "@shared/hono/client";
+import { api } from "@/lib/api";
 import { useQuery } from "@tanstack/react-query";
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
 
